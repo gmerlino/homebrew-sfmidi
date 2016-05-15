@@ -15,8 +15,4 @@ class Sfmidi < Formula
     system "cmake", ".", *std_cmake_args
     system "make", "install"
   end
-
-  test do
-    system "#{bin}/program"
-  end
 end
