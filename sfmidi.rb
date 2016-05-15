@@ -3,7 +3,7 @@ require "formula"
 class Sfmidi < Formula
   homepage ""
   url "http://www.zorexxlkl.com/files/downloads/sfMidi-1.1.0-CMake.zip"
-  sha1 "039edb82863e42bab213c6e60d9029396cb84d0b"
+  sha256 "2ba1de398e51c81e3178f8f075bda0119596a0fb227ff62d6633d3928a406522"
 
   depends_on "cmake" => :build
   depends_on "sfml" => :build
